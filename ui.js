@@ -31,7 +31,7 @@ class UI{
         mainDiv.innerHTML='';
         mainDiv.innerHTML='';
         const imagedata = this.imageData.results;
-        console.log(imagedata);
+        //console.log(imagedata);
         //Loop through each data item
         imagedata.forEach((item,index)=>{
             this.createImageElement(item.urls.thumb,item.urls.full);
